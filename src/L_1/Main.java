@@ -5,11 +5,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        PC nonamePC=new PC();
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Введи ПРОЦ");
-         nonamePC.cpu=sc.nextInt();
-        System.out.print(" Введенное значение = " + nonamePC.cpu);
+        PC nonamePC=new PC(2000,16,"d");
+nonamePC.getCpu();
+nonamePC.setCpu(System.in); // КАК ВВЕСТИ ЧЕРЕЗ КОНСОЛЬ
+        nonamePC.getCpu();
+
 
     }
 }
