@@ -1,7 +1,5 @@
 package L_1;
 
-import java.util.Scanner;
-
 public class PC {
     private int cpu;
     private int memory;

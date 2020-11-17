@@ -1,5 +1,4 @@
 package L_1;
-import java.util.Scanner;
 
 public class Main {
 
@@ -11,6 +10,8 @@ public class Main {
 nonamePC.setMemory(16);
 nonamePC.setModel("Dell");
 nonamePC.getCpu();
+        int q= nonamePC.getModel().length();
+        System.out.println(q);
 
 
 
