@@ -20,10 +20,7 @@ public class PC {
 
     public void setCpu(int cpu) {
         this.cpu = cpu;
-           Scanner sc=new Scanner(System.in);
-       System.out.println("Введи ПРОЦ");
-    cpu=sc.nextInt();
-    }
+         }
 
     public int getMemory() {
         System.out.println(memory);
@@ -42,9 +39,6 @@ public class PC {
     public void setModel(String model) {
         this.model = model;
     }
-//    Scanner sc=new Scanner(System.in);
-//        System.out.println("Введи ПРОЦ");
-//    cpu=sc.nextInt();
 
 
 
