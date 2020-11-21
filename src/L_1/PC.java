@@ -1,7 +1,7 @@
 package L_1;
 
-public class PC {
-    private int cpu;
+ public class PC {
+    private int cpu=1;
     private int memory;
     private String model;
 
