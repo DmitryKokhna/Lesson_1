@@ -37,5 +37,10 @@ public class Notebook extends PC {
     public void setDisplSize(int displSize) {
         this.displSize = displSize;
     }
+
+    @Override
+    public void printPCttx() {
+        super.printPCttx();
+    }
 }
 
