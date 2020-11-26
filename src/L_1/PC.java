@@ -1,29 +1,32 @@
 package L_1;
 
- public class PC {
+public class PC {
     private int cpu;
     private String model;
 
-     public PC() {
-     }
-
-    public PC(int cpu, String model) {
+    PC(int cpu, String model) {
         this.cpu = cpu;
         this.model = model;
     }
 
+    public PC() {
 
+    }
 
-     public int getCpu() {
-         return cpu;
+    public PC(int cpu) {
+        this.cpu = cpu;
+    }
+
+    public int getCpu() {
+        return cpu;
     }
 
     public void setCpu(int cpu) {
         this.cpu = cpu;
-         }
+    }
 
     public String getModel() {
-          return model;
+        return model;
     }
 
     public void setModel(String model) {
