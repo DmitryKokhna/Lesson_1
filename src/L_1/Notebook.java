@@ -10,5 +10,10 @@ public class Notebook extends PC {
         this.displSize = displSize;
         this.m2YeasNo = m2YeasNo;
     }
+
+    @Override
+    public void printPCttx() {
+        super.printPCttx();
+    }
 }
 
