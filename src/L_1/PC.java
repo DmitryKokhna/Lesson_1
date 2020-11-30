@@ -38,7 +38,7 @@ public void printPCttx(){
     System.out.println(getCpu());
        System.out.print("Модель - ");
     System.out.println(getModel());
-    System.out.println("Характестирики Вашего ПЭВМAs");
+    System.out.println("Характестирики Вашего ПЭВМAs111");
 }
 
 }
